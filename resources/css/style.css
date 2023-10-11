@@ -1,0 +1,104 @@
+.background {
+  background-color: rgb(8, 45, 8);
+}
+
+.comment {
+  color: white;
+  padding: 0px 25px;
+  font-size: 20px;
+  padding-right: 250px;
+}
+
+.header {color: white;
+  text-align: left;
+  font-size: 40px;
+  padding: 25px 25px;
+  padding-bottom: 0px;
+}
+
+.name {
+  text-indent: 50px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(8, 45, 8);
+}
+
+.text {
+  color: white;
+  padding: 0px 25px;
+  width: 1000px;
+  float: left;
+  font-size: 20px;
+  padding-right: 250px;
+  padding-top:25px;
+}
+
+.text-box {
+  background-color: white;
+  border-radius: 4px;
+  padding: 1px 30px;
+  height: 130px;
+  width: 700px;
+  font-size: 20px;
+  color: rgb(8, 45, 8);
+}
+
+.text-header {
+  font-size: 20px;
+  color: rgb(8, 45, 8);
+}
+
+.title {
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 30px;
+}
+
+.photo {
+  background-image: url("../photo.png");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+#benzene {
+  filter: drop-shadow(1px 1px 1px black);
+  border-radius: 5px;
+  height: 300px;
+  width: 500px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px 20px;
+  color: rgb(8, 45, 8);
+}
+
+.textbox {
+  border: 1px solid #ccc;
+  padding: 10px 30px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+  font-size: 20px;
+  color: rgb(8, 45, 8);
+}
